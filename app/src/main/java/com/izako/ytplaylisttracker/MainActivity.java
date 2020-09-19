@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         text.setText(preferences.getString("playlisturl", null));
 
        TextView view =  findViewById(R.id.sumText);
-       view.setText("nigga");
+       view.setText("test");
         super.onResume();
     }
 }
